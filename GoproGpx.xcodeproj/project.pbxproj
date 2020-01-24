@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42AFBE0224CC75200B11356 /* trackEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42AFBDF224CC75200B11356 /* trackEditController.swift */; };
+		F42AFBE2224D47B100B11356 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42AFBE1224D47B100B11356 /* InputViewController.swift */; };
+		F446FB7422455C8B0017CE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446FB7322455C8B0017CE0C /* AppDelegate.swift */; };
+		F446FB7622455C8B0017CE0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446FB7522455C8B0017CE0C /* ViewController.swift */; };
+		F446FB7822455C8D0017CE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F446FB7722455C8D0017CE0C /* Assets.xcassets */; };
+		F446FB7B22455C8D0017CE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F446FB7922455C8D0017CE0C /* Main.storyboard */; };
+		F446FB8D224566330017CE0C /* GPMF_mp4reader.c in Sources */ = {isa = PBXBuildFile; fileRef = F446FB85224566320017CE0C /* GPMF_mp4reader.c */; };
+		F446FB8E224566330017CE0C /* GPMF_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F446FB87224566330017CE0C /* GPMF_parser.c */; };
+		F446FB8F224566330017CE0C /* GPMF_create_GPS_data.c in Sources */ = {isa = PBXBuildFile; fileRef = F446FB88224566330017CE0C /* GPMF_create_GPS_data.c */; };
+		F446FB90224566330017CE0C /* GPMF_print.c in Sources */ = {isa = PBXBuildFile; fileRef = F446FB8B224566330017CE0C /* GPMF_print.c */; };
+		F446FB92224566A00017CE0C /* GPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446FB91224566A00017CE0C /* GPS.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F42AFBDF224CC75200B11356 /* trackEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackEditController.swift; sourceTree = "<group>"; };
+		F42AFBE1224D47B100B11356 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		F446FB7022455C8B0017CE0C /* GoproGpx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoproGpx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F446FB7322455C8B0017CE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F446FB7522455C8B0017CE0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F446FB7722455C8D0017CE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F446FB7A22455C8D0017CE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F446FB7C22455C8D0017CE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F446FB7D22455C8D0017CE0C /* GoproGpx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoproGpx.entitlements; sourceTree = "<group>"; };
+		F446FB83224566320017CE0C /* GoproGpx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoproGpx-Bridging-Header.h"; sourceTree = "<group>"; };
+		F446FB84224566320017CE0C /* GPMF_create_GPS_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMF_create_GPS_data.h; sourceTree = "<group>"; };
+		F446FB85224566320017CE0C /* GPMF_mp4reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GPMF_mp4reader.c; sourceTree = "<group>"; };
+		F446FB86224566330017CE0C /* GPMF_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMF_parser.h; sourceTree = "<group>"; };
+		F446FB87224566330017CE0C /* GPMF_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GPMF_parser.c; sourceTree = "<group>"; };
+		F446FB88224566330017CE0C /* GPMF_create_GPS_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GPMF_create_GPS_data.c; sourceTree = "<group>"; };
+		F446FB8A224566330017CE0C /* GPMF_mp4reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMF_mp4reader.h; sourceTree = "<group>"; };
+		F446FB8B224566330017CE0C /* GPMF_print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GPMF_print.c; sourceTree = "<group>"; };
+		F446FB8C224566330017CE0C /* GPMF_print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMF_print.h; sourceTree = "<group>"; };
+		F446FB91224566A00017CE0C /* GPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F446FB6D22455C8B0017CE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F446FB6722455C8B0017CE0C = {
+			isa = PBXGroup;
+			children = (
+				F446FB7222455C8B0017CE0C /* GoproGpx */,
+				F446FB7122455C8B0017CE0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F446FB7122455C8B0017CE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F446FB7022455C8B0017CE0C /* GoproGpx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F446FB7222455C8B0017CE0C /* GoproGpx */ = {
+			isa = PBXGroup;
+			children = (
+				F446FB88224566330017CE0C /* GPMF_create_GPS_data.c */,
+				F446FB84224566320017CE0C /* GPMF_create_GPS_data.h */,
+				F446FB85224566320017CE0C /* GPMF_mp4reader.c */,
+				F446FB8A224566330017CE0C /* GPMF_mp4reader.h */,
+				F446FB87224566330017CE0C /* GPMF_parser.c */,
+				F446FB86224566330017CE0C /* GPMF_parser.h */,
+				F446FB8B224566330017CE0C /* GPMF_print.c */,
+				F446FB8C224566330017CE0C /* GPMF_print.h */,
+				F446FB7322455C8B0017CE0C /* AppDelegate.swift */,
+				F446FB7522455C8B0017CE0C /* ViewController.swift */,
+				F42AFBDF224CC75200B11356 /* trackEditController.swift */,
+				F42AFBE1224D47B100B11356 /* InputViewController.swift */,
+				F446FB91224566A00017CE0C /* GPS.swift */,
+				F446FB7722455C8D0017CE0C /* Assets.xcassets */,
+				F446FB7922455C8D0017CE0C /* Main.storyboard */,
+				F446FB7C22455C8D0017CE0C /* Info.plist */,
+				F446FB7D22455C8D0017CE0C /* GoproGpx.entitlements */,
+				F446FB83224566320017CE0C /* GoproGpx-Bridging-Header.h */,
+			);
+			path = GoproGpx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F446FB6F22455C8B0017CE0C /* GoproGpx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F446FB8022455C8D0017CE0C /* Build configuration list for PBXNativeTarget "GoproGpx" */;
+			buildPhases = (
+				F446FB6C22455C8B0017CE0C /* Sources */,
+				F446FB6D22455C8B0017CE0C /* Frameworks */,
+				F446FB6E22455C8B0017CE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoproGpx;
+			productName = GoproGpx;
+			productReference = F446FB7022455C8B0017CE0C /* GoproGpx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F446FB6822455C8B0017CE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Karl Bono";
+				TargetAttributes = {
+					F446FB6F22455C8B0017CE0C = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F446FB6B22455C8B0017CE0C /* Build configuration list for PBXProject "GoproGpx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F446FB6722455C8B0017CE0C;
+			productRefGroup = F446FB7122455C8B0017CE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F446FB6F22455C8B0017CE0C /* GoproGpx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F446FB6E22455C8B0017CE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F446FB7822455C8D0017CE0C /* Assets.xcassets in Resources */,
+				F446FB7B22455C8D0017CE0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F446FB6C22455C8B0017CE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42AFBE2224D47B100B11356 /* InputViewController.swift in Sources */,
+				F446FB8E224566330017CE0C /* GPMF_parser.c in Sources */,
+				F446FB90224566330017CE0C /* GPMF_print.c in Sources */,
+				F446FB7622455C8B0017CE0C /* ViewController.swift in Sources */,
+				F42AFBE0224CC75200B11356 /* trackEditController.swift in Sources */,
+				F446FB8F224566330017CE0C /* GPMF_create_GPS_data.c in Sources */,
+				F446FB8D224566330017CE0C /* GPMF_mp4reader.c in Sources */,
+				F446FB7422455C8B0017CE0C /* AppDelegate.swift in Sources */,
+				F446FB92224566A00017CE0C /* GPS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F446FB7922455C8D0017CE0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F446FB7A22455C8D0017CE0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F446FB7E22455C8D0017CE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F446FB7F22455C8D0017CE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F446FB8122455C8D0017CE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GoproGpx/GoproGpx.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7PB568D5T8;
+				INFOPLIST_FILE = GoproGpx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bono.GoproGpx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoproGpx/GoproGpx-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F446FB8222455C8D0017CE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GoproGpx/GoproGpx.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7PB568D5T8;
+				INFOPLIST_FILE = GoproGpx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bono.GoproGpx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoproGpx/GoproGpx-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F446FB6B22455C8B0017CE0C /* Build configuration list for PBXProject "GoproGpx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446FB7E22455C8D0017CE0C /* Debug */,
+				F446FB7F22455C8D0017CE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F446FB8022455C8D0017CE0C /* Build configuration list for PBXNativeTarget "GoproGpx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446FB8122455C8D0017CE0C /* Debug */,
+				F446FB8222455C8D0017CE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F446FB6822455C8B0017CE0C /* Project object */;
+}
