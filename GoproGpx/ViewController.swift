@@ -138,12 +138,6 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         defaults.set(authorDescriptionField.stringValue, forKey: "AuthorDescription")
     }
     
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
     @IBOutlet var gpxNameField: NSTextField!
     
     @IBOutlet var authorNameField: NSTextField!
