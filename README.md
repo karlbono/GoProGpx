@@ -6,3 +6,5 @@ The app uses the libraries provided by GoPro to extract a gpx track from one or 
 It also provides the possiblility of reducing the number of trackpoints or deleting certain points.
 
 The app has been tested on footage from a GoPro Hero 7 Black camera. Testsresults on files from other GoPro cameras are welcome.
+
+Download GoproGpx.zip if you just want the binary.
